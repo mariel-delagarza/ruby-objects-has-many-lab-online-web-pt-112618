@@ -14,4 +14,7 @@ class Song
     @@all 
   end 
   
+   def self.artist
+     artist.name if artist 
+  end 
   
