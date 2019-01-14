@@ -10,6 +10,9 @@ Class Artist
     @name = name 
     @@all << self 
   end 
+  
+  def self.all 
+    @
 
   def add_song(song) 
     song.artist = self 
