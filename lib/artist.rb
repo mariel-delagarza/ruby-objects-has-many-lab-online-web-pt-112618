@@ -1,6 +1,6 @@
 #An artist should have many songs and a song should belong to an artist
 
-Class Artist 
+class Artist 
   
   attr_accessor :name 
   @@all = [] 
